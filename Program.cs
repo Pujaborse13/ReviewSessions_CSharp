@@ -4,6 +4,7 @@ using ReviewSession_5;
 
 class Program
 {
+    /*
     public static void Main(string[] args)
     {
         
@@ -32,20 +33,21 @@ class Program
         //4.Custom age Exception 
         CheckAge checkAge = new CheckAge();
         checkAge.ValidateAge();
+    */
 
-       
-         
+        //6.Tpl Operations
 
-
-
-
-
-
-
-
+        static async Task Main()
+        {
+            TplDemo demo = new TplDemo();
+            await demo.ThreeTask();
+        }
 
 
-    }
+
+
+
+    //}
 
 
 }
